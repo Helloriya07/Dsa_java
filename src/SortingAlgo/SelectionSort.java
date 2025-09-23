@@ -23,7 +23,7 @@ public class SelectionSort {
                 }
             }
             int temp = arr[i];
-            arr[i]= arr[minidx]; // then swap that index with ith index.
+            arr[i]= arr[minidx]; // then swap that index with ith index..
             arr[minidx] = temp;
         }
         for(int x:arr) System.out.print(x+"  ");
