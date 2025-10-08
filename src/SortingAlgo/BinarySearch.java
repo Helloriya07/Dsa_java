@@ -1,6 +1,7 @@
 package SortingAlgo;
 
 import java.util.ArrayList;
+// Binary search in duplicate elements of array return first and last occurances.
 
 public class BinarySearch {
     public static void main(String[] args) {

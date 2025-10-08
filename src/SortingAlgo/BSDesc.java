@@ -1,5 +1,5 @@
 package SortingAlgo;
-
+//binary search in descending order array..
 public class BSDesc {
     public static void main(String[] args) {
         int arr[] = {9, 8, 7, 6, 5, 4};
