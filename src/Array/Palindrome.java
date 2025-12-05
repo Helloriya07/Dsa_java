@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Palindrome {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,2,1};
+        int[] arr = {1,2,3,2,6};
 
         int n = arr.length;
         int i = 0;
@@ -15,7 +15,10 @@ public class Palindrome {
             if (arr[i] != arr[j]){
                 System.out.println("f");
         }
+            i++;
+            j--;
             }
+
         System.out.println("t");
     }
 }
