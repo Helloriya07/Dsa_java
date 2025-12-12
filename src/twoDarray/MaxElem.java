@@ -2,6 +2,7 @@ package twoDarray;
 
 import java.util.Scanner;
 
+// maximim elem in 2d array;
 public class MaxElem {
     public static void main(String[] args) {
         int[][] arr = new int[3][3];

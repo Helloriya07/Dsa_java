@@ -1,7 +1,7 @@
 package twoDarray;
 
 import java.util.Scanner;
-
+// maximim sum and return row having max sum
 public class DarrayDemo {
     public static void main(String[] args) {
         int[][] arr = new int[4][4];

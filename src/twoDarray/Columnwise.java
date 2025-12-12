@@ -1,6 +1,7 @@
 package twoDarray;
 
 import java.util.Scanner;
+//print 2d array coulumn wise..
 
 public class Columnwise {
     public static void main(String[] args) {
@@ -13,14 +14,14 @@ public class Columnwise {
 
                 }
             }
-//            //Columnwise printing.......
-//        for (int j = 0; j < arr[0].length; j++){
-//            for (int i = 0; i < arr.length; i++)
-//                {
-//                    System.out.print(arr[i][j]+" ");
-//                }
-//            System.out.println();
-//            }
+            //Columnwise printing.......
+        for (int j = 0; j < arr[0].length; j++){
+            for (int i = 0; i < arr.length; i++)
+                {
+                    System.out.print(arr[i][j]+" ");
+                }
+            System.out.println();
+            }
         //Rowwise printing.......
 
             for (int i = 0; i < arr.length; i++){
